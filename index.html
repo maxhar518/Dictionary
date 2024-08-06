@@ -10,10 +10,15 @@
 
 <body>
     <div class="dic">
-        <div class="text"><h1>Dictionary</h1></div>
-        <input type="search" id="search">
+        <div class="text">
+            <h1>Dictionary</h1>
+        </div>
+        <div class="form__group">
+            <input type="search" id="search" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label">Name</label>
+        </div><br>
         <button id="btn">Search</button>
-        
+
         <div id="container">
             <div style="color: rgb(245, 53, 53); font-size: x-large;" id="message"></div>
         </div>
